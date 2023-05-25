@@ -1,0 +1,38 @@
+body {
+    background-color: #737373;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+}
+
+.banner {
+    grid-column: 1/11;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.circles {
+    border-radius: 50%;
+    border: solid 13px #444444;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#desk {
+    grid-column: 2/4;
+}
+
+#graphic {
+    grid-column: 5/7;
+}
+
+#person {
+    grid-column: 8/10;
+}
