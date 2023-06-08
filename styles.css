@@ -1,50 +1,60 @@
 body {
-    height: 850px;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    width: 485px;
 }
 
 img {
-    grid-column: 1/2;
-    grid-row: 1/5;
-    width: 100%;
-    height: 100%
+    float: left;
+    margin-right: 30px;
 }
 
-h1 {
-    grid-column: 2/4;
-    width: 100%;
-    text-align: center;
-}
-
-h3 {
-    grid-column: 2/4;
-    text-align: center;
-}
-
+.name,
 .email {
-    width: 500px;
-    height: 60px;
-    align-items: center;
+    height: 2.1em;
+    width: 54%;
+    border-radius: 5px;
+    border: solid;
+    border-width: 0.5px;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 10px;
+}
+
+h2 {
+    font-weight: 1000;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+h2,
+h4 {
+    text-align: center;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
 }
 
 .name {
-    width: 500px;
-    height: 60px;
-    grid-column: 2/4;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .check {
-    grid-column: 2/4;
-    text-align: center;
-    width: 20px;
-    height: 20px;
+    float: left;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
 }
 
-.button {
-    background-color: orange;
+button {
+    background-color: #e39968;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 3em;
+    width: 9em;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 15px;
+    align-content: center;
+    margin-left: 38px;
 }
