@@ -1,0 +1,60 @@
+body {
+    width: 485px;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+.name,
+.email {
+    height: 2.1em;
+    width: 54%;
+    border-radius: 5px;
+    border: solid;
+    border-width: 0.5px;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 10px;
+}
+
+h2 {
+    font-weight: 1000;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+h2,
+h4 {
+    text-align: center;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.check {
+    float: left;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+button {
+    background-color: #e39968;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 3em;
+    width: 9em;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 15px;
+    align-content: center;
+    margin-left: 38px;
+}
